@@ -19,3 +19,5 @@ git add . - adds files changes in your working directory to your index
 git commit - takes all of the changes written in the index, creates a new commit object pointing to it and sets the branch to point to that new commit. Examples: git commit -m ‘committing added changes’ git commit -a -m ‘committing all changes, equals to git add and git commit’
 
 git push - Pushes all the modified local objects to the remote repository and advances its branches. Example: git push origin master
+
+git rm <fileName> - removes files from your index and your working directory so they will not be tracked.

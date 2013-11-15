@@ -16,8 +16,8 @@ git add <filename> - afegeix nou fitxer creat en local a repo.
 
 git all . - afegeix tots fitxers a repo.
 
-git commit - 
+git commit - confirmar els canvis fets en repo.
 
- takes all of the changes written in the index, creates a new commit object pointing to it and sets the branch to point to that new commit. Examples: git commit -m ‘committing added changes’ git commit -a -m ‘committing all changes, equals to git add and git commit’
+git push - puja tots els fitxers modificats en repo. Example: git push origin master
 
-git push - Pushes all the modified local objects to the remote repository and advances its branches. Example: git push origin master
+git rm <fileName> - eliminar fitxer de local i repo.
