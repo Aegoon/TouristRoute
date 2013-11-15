@@ -1,0 +1,13 @@
+git init - inicializes a git repository. (execute once)
+
+git clone URL - makes a  copy of Git repository from a remote source
+
+git pull - fetches the files from the remote repository and merges it with your local one
+
+git status - shows you the status of files in the index versus the working directory. It will list out files that are untracked (only in your working directory), modified (tracked but not yet updated in your index), and staged (added to your index and ready for committing)
+
+git checkout - Checks out a different branch – switches branches by updating the index, working tree, and HEAD to reflect the chosen branch
+
+git add <fileName> - adds file change in your working directory to your index
+
+git add . - adds files changes in your working directory to your index
