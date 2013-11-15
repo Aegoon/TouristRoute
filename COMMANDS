@@ -2,6 +2,10 @@ git init - inicializes a git repository. (execute once)
 
 git clone URL - makes a  copy of Git repository from a remote source
 
+git config --global user.name "Your Name"
+
+git config --global user.email you@example.com
+
 git pull - fetches the files from the remote repository and merges it with your local one
 
 git status - shows you the status of files in the index versus the working directory. It will list out files that are untracked (only in your working directory), modified (tracked but not yet updated in your index), and staged (added to your index and ready for committing)
@@ -11,3 +15,7 @@ git checkout - Checks out a different branch – switches branches by updating t
 git add <fileName> - adds file change in your working directory to your index
 
 git add . - adds files changes in your working directory to your index
+
+git commit - takes all of the changes written in the index, creates a new commit object pointing to it and sets the branch to point to that new commit. Examples: git commit -m ‘committing added changes’ git commit -a -m ‘committing all changes, equals to git add and git commit’
+
+git push - Pushes all the modified local objects to the remote repository and advances its branches. Example: git push origin master

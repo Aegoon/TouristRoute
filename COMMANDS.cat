@@ -1,0 +1,23 @@
+git init - inicialitza a repositorio git . (se executa un cop)
+
+git clone URL - crea la copia de repositorio git en maquina local
+
+git config --global user.name "Your Name"
+
+git config --global user.email you@example.com
+
+git pull - busca fitxers en el repositorio remoto i els compara amb els de la maquina local
+
+git status - Mostra estatus dels fitxers de repositorio contra el directorio de la maquina local. untracked: no trobats en repo, peró existen en local, modified: trobats tants en repo com en local, peró el contingut es diferent, staged (afegits a repo esperant confirmació)
+
+git checkout <fileName> - desfa el canvi fet en local
+
+git add <filename> - afegeix nou fitxer creat en local a repo.
+
+git all . - afegeix tots fitxers a repo.
+
+git commit - 
+
+ takes all of the changes written in the index, creates a new commit object pointing to it and sets the branch to point to that new commit. Examples: git commit -m ‘committing added changes’ git commit -a -m ‘committing all changes, equals to git add and git commit’
+
+git push - Pushes all the modified local objects to the remote repository and advances its branches. Example: git push origin master
