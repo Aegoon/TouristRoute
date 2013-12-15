@@ -1,0 +1,104 @@
+/* SECTIONS stylesheet*/
+
+.sTop {
+	min-height: 630px;
+	background-image: url('img/1.jpg');	
+}
+
+.sTop h1 {
+	padding-top: 200px;
+	color: rgb(0, 0, 0);
+}
+
+.sTop h2 {
+	padding-top: 50px;
+}
+
+.s1 {
+	width: 100%;
+	height: 100%;
+   margin: 0px;
+   padding: 0px;
+}
+
+.space {
+	min-height: 300px;
+}
+
+.s2 h1, .s3 h1 {
+	font-size: 36px;
+	letter-spacing: -2px;
+	line-height: 100%;	
+	color: rgb(255, 255, 255);
+	background: none repeat scroll 0% 0% rgba(47, 147, 208, 0.9);	
+	padding: 15px;
+	width: 100%;
+	display:table-cell;	
+	overflow: hidden;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	margin:0 0 15px 0;	
+} 
+
+.s2 {
+	min-height: 500px;
+	margin-left: 10%;
+	width: 80%;
+}
+
+
+.s3 {
+	min-height: 500px;
+	background: #293b4d;
+	color: white;
+}
+
+#map {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#routeMap {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#toMap {
+	display: none;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 60px;
+	z-index: 10;
+}
+
+#panel {
+	position: absolute;
+	width: 30%;
+	min-width: 200px;
+	margin-left: 35%;
+	margin-top: 60px;	
+	border: 1px solid #999;
+	background-color: #fff;
+   padding: 5px;	
+   display: none;
+   z-index: 10;
+}
+@media (max-width : 425px) {
+	width: 100%;
+	margin-left:0%;
+}
+
+#message_panel {
+	position: absolute;
+ 	width:50%;
+ 	min-width: 200px;
+	margin-left: 25%;
+	text-align: center;
+	border: 1px solid #999;
+	background-color: #fff;
+   padding: 5px;	
+   display: none;
+	z-index: 10;	 
+}
